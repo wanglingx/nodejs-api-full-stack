@@ -1,0 +1,147 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #0A2647, #144272, #205295);
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-btn { 
+    margin-right: 30px;
+    margin-left: auto;
+    padding: 10px 16px;
+    background-color: #176B87;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #6f660d;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #bb9e1f;
+}
+
+tr:nth-child(even) {
+    background-color: #8c8989;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.total-row td {
+    text-align: right;
+    font-weight: bold;
+}
+
+.export-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.export-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.export-btn:hover {
+    background-color: #45a049;
+}
+
+.date-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.date-form input[type="date"] {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.date-form input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.date-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    text-align: center;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.revenue-report {
+    width: 100%; /* Adjust as needed */
+}
