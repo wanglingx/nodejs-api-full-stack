@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { AuthEndpoint } = require('../service/auth/endpoint');
+//const { AuthEndpoint } = require('../service/auth/endpoint');
 
 
 // router.post('/register', new AuthEndpoint().registerEndpoint);
